@@ -34,13 +34,13 @@ modified - файл был изменён
 
 graph LR;
 
-&#x20; untracked -- "git add" --> staged;
+untracked -- "git add" --> staged;
 
-&#x20; staged -- "git commit" --> tracked/comitted;
+staged -- "git commit" --> tracked/comitted;
 
-&#x20; tracked/committed -- "изменение в файле" --> modified/changed;
+tracked/committed -- "изменение в файле" --> modified/changed;
 
-&#x20; modified/changed -- "git add" --> staged;
+modified/changed -- "git add" --> staged;
 
 
 
